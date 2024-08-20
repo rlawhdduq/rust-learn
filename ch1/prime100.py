@@ -4,7 +4,7 @@ def is_prime(n):
         print("{}, {}".format(n, i))
         if n % i == 0:
             return False
-        return True
+    return True
     
 # count만큼 소수를 생성
 def get_primes(count):
@@ -16,4 +16,4 @@ def get_primes(count):
         i += 1
     return res
 
-print(get_primes(100))
+print(get_primes(10))
