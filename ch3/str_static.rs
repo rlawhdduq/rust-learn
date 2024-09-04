@@ -12,7 +12,8 @@ fn main(){
     echo("웅변은 은이요");
     echo("침묵은 금이다");
 
+    let s: &'static str = "러스트의 라이프타임";
     // 아래 주석 부분은 에러가 발생한다
-    let s = String::from("테스트");
-    echo(&s);
+    // let s = String::from("테스트");
+    // echo(&s);
 }
